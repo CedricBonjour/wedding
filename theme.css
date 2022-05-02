@@ -4,15 +4,35 @@
   --grey: #eee;
   --shadow: #aaa;
   --pink: #ff7979;
+  --tc: #cc6238;
 }
 
 
 @font-face {
+      src:url("font/Montserrat-VariableFont_wght.ttf");
+      src:url("font/Niconne-Regular.ttf");
+      src:url("font/DancingScript-SemiBold.ttf");
+      src:url("font/DancingScript-VariableFont_wght.ttf");
+      src:url("font/IndieFlower-Regular.ttf");
+      src:url("font/ArchitectsDaughter-Regular.ttf       ");
+      src:url("font/DancingScript-Bold.ttf");
+      src:url("font/MarckScript-Regular.ttf");
+      src:url("font/Tangerine-Bold.ttf");
+      src:url("font/Tangerine-Regular.ttf");
+      src:url("font/MsMadi-Regular.ttf"); /* ok*/
+      src:url("font/DancingScript-Medium.ttf"); /*best*/
+      src:url("font/DancingScript-Regular.ttf");
+
     font-family: myfont;
-    /*src:url("font/IndieFlower-Regular.ttf");*/
-    src:url("font/Tangerine-Bold.ttf");
-    /*src:url("font/Niconne-Regular.ttf");*/
-    /*src:url("font/Montserrat-VariableFont_wght.ttf");*/
+
+
+}
+@font-face {
+     
+      src:url("font/MarckScript-Regular.ttf");
+
+    font-family: myfont2;
+
 
 }
 
@@ -43,9 +63,12 @@
   margin: 5em 0 5em 0 ;
 }
 
- h1, h2,h3, h4{  font-family: myfont; margin:0; font-size: 3em;}
+ h1, h2,h3, h4{  font-family: myfont; margin:0; font-size: 2em; font-weight:  400}
  h1{margin: 0.5em 0 .5em}
 
+h1, h2,h3, h4{
+letter-spacing: 0.1em;
+ }
 
 h5{
   margin: 0;
@@ -91,7 +114,8 @@ white-space:  nowrap;
 padding-top:    2em;
 line-height: 1.5em;
 font-family: myfont;
-font-size: 2em;
+font-size: 1.5em;
+font-weight:  400
 }
 span{
   display: inline-block;
@@ -102,12 +126,12 @@ span{
 section {
   min-height: 100vh;
   flex-direction: column;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   display: none;
 }
 
 section div:first-child {
-  max-height: 100%;
+  /*max-height: 100%;*/
 }
 
 /*
@@ -131,6 +155,7 @@ body{
   font-weight:lighter;
   margin:0;
   text-align: center;
+
 }
 
 table{
@@ -225,7 +250,7 @@ footer{
   overflow: hidden; 
 }
 .selected_gift{
-  box-shadow: 0 0  0 5px  pink;
+  box-shadow: 0 0  0 5px  var(--tc);
 
 
 
@@ -247,7 +272,7 @@ footer a{
   padding: .5em;
   font-weight: bold;
   border: none;
-  background-color: #ff8ca0;
+  background-color: var(--tc);
   color:white;
   border-radius: 1em; 
   cursor :pointer;
@@ -276,7 +301,7 @@ text-align: center;
 font-size: 3em;
 width: 2.5em;
 border: none;
-color:#ff8ca0;
+color:var(--tc);
 
 
 }
@@ -365,20 +390,22 @@ input[type=number] {
 }
 
 #header_txt {
-  background-color: var(--pink);
-  padding: 1em 2em;
-  border-radius: 2em;
-  color:  white;
+  /*background-color: var(--pink);*/
+  /*padding: 1em 2em;*/
+  /*border-radius: 2em;*/
+  /*color:  white;*/
   /*line-height: 3em;*/
-  border: solid 2px white;
+  /*border: solid 2px white;*/
   font-family: myfont;
-  font-size: 2em;
+  font-size: 3em;
   /*font-weight: bold;*/
 
   position:absolute ;
   bottom: 5vh;
   right:5vw;
-
+  color:  white;
+  text-shadow: 1px 1px 6px  #888 ;
+  margin:auto;
   /*display: flex;*/
   /*flex-direction: column;*/
   /*align-items: center;*/

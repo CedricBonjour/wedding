@@ -10,7 +10,7 @@ var b =  document.getElementById('menu_icn')
 document.getElementById('menu_icn').addEventListener("click", ()=>{toggle_div("main-nav")})
 
 document.getElementById('money_slider').addEventListener("input", e=>{
-  amnt = [0,20,30,50,75,100,150,200,250,300,350,400,500,600,700,800,1000,1200,1500, 2000]
+  amnt = [0,10, 15, 20,25, 30,40, 50,75,100,125, 150,200,250,300,350,400,500,600,700,800]
   document.getElementById('amount_donate').value=amnt[e.target.value]
 })
 

@@ -1,6 +1,7 @@
 
 
 slideshow_dict = [
+["trou", "Début des travaux à Maisons-Laffitte "],
 ["img_001", "A cheval à la caillotière  (en Anjou)"],
 ["img_002", "Claire dans sont moment de l'année préféré : Noël"],
 ["img_003", ""],
