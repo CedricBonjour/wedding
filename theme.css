@@ -90,15 +90,21 @@ hr{
   margin-bottom: 30vh;
 }
 .art_img{
+/*float:left;*/
+/*margin:;*/
  max-height : 20em;
  max-width: 100%;
 }
 .art_wrapper{
-   box-shadow: 0 0 0  1px  var(--shadow);
+   /*box-shadow: 0 0 0  1px  var(--shadow);*/
 
   display: flex;justify-content: space-evenly; align-items: center;   
-  padding: 10vh 0 10vh 0
+  /*padding: 10vh 0 10vh 0*/
 }
+.art_wrapper div{
+  flex-grow: 2;
+}
+
 p{
   display: inline-block;
   /*width : 40em;*/
