@@ -78,8 +78,8 @@ function send_message(){
     stripe.redirectToCheckout({
       lineItems: [{price: 'price_1KspELHQxLPgR6iw6g80jQ4i', quantity: Number( document.getElementById('amount_donate').value)}],
       mode: 'payment',
-      successUrl: 'https://CedricBonjour.github.io/projects/mariage/success.html',
-      cancelUrl: 'https://cedricbonjour.github.io/projects/mariage/home.html',
+      successUrl: 'https://cedric-et-claire.fr/success.html',
+      cancelUrl: 'https://cedric-et-claire.fr',
     })
     .then(function (result) {
       if (result.error) {
