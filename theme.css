@@ -104,6 +104,14 @@ hr{
 .art_wrapper div{
   flex-grow: 2;
 }
+pre{
+font-family: lato;
+line-height: 1.7em
+
+}
+a h4:hover{
+  color: #900
+}
 
 p{
   display: inline-block;
